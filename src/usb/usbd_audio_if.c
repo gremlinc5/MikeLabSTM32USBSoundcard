@@ -73,7 +73,7 @@ static int8_t  TEMPLATE_MuteCtl(uint8_t cmd);
 static int8_t  TEMPLATE_PeriodicTC(uint8_t *pbuf, uint32_t size, uint8_t cmd);
 static int8_t  TEMPLATE_GetState(void);
 
-USBD_AUDIO_ItfTypeDef USBD_AUDIO_Template_fops =
+USBD_AUDIO_ItfTypeDef USBD_AUDIO_fops =
 {
   TEMPLATE_Init,
   TEMPLATE_DeInit,
