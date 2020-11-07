@@ -40,17 +40,17 @@
 #define __MAIN_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f4xx_hal.h"
-#include "stm32f4xx_hal_rcc_ex.h"
-#include "stm32f4xx_hal_pcd.h"
-#include "stm32f4xx_hal_hcd.h"
-#include "stm32f4xx_hal_i2s.h"
-#include "usbd_core.h"
-#include "usbd_desc.h"
-#include "usbd_audio.h"
-#include "usbd_audio_if.h"
-#include "stm32f4_discovery.h"
-#include "stm32f4_discovery_audio.h"
+#include "bsp/stm32f4xx_hal.h"
+#include "bsp/stm32f4xx_hal_rcc_ex.h"
+#include "bsp/stm32f4xx_hal_pcd.h"
+#include "bsp/stm32f4xx_hal_hcd.h"
+#include "bsp/stm32f4xx_hal_i2s.h"
+#include "bsp/usbd_core.h"
+#include "bsp/usbd_desc.h"
+#include "bsp/usbd_audio.h"
+#include "bsp/usbd_audio_if.h"
+#include "bsp/stm32f4_discovery.h"
+#include "bsp/stm32f4_discovery_audio.h"
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
