@@ -49,7 +49,7 @@
 #include "cs43l22.h"
 
 #include "stm32f4_discovery.h"
-#include "../audio/STM32_Audio/Addons/PDM/pdm_filter.h"
+#include "../STM32_Audio/Addons/PDM/pdm_filter.h"
 
 /** @addtogroup BSP
   * @{
