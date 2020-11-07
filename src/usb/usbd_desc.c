@@ -29,13 +29,13 @@
 #define USBD_VID                      0x0483
 #define USBD_PID                      0xaaaa  /* Replace '0xaaaa' with your device product ID */
 #define USBD_LANGID_STRING            0xbbb  /* Replace '0xbbb' with your device language ID */
-#define USBD_MANUFACTURER_STRING      "xxxxx" /* Add your manufacturer string */
-#define USBD_PRODUCT_HS_STRING        "xxxxx" /* Add your product High Speed string */
-#define USBD_PRODUCT_FS_STRING        "xxxxx" /* Add your product Full Speed string */
-#define USBD_CONFIGURATION_HS_STRING  "xxxxx" /* Add your configuration High Speed string */
-#define USBD_INTERFACE_HS_STRING      "xxxxx" /* Add your Interface High Speed string */
-#define USBD_CONFIGURATION_FS_STRING  "xxxxx" /* Add your configuration Full Speed string */
-#define USBD_INTERFACE_FS_STRING      "xxxxx" /* Add your Interface Full Speed string */
+#define USBD_MANUFACTURER_STRING      "MikeLab" /* Add your manufacturer string */
+#define USBD_PRODUCT_HS_STRING        "MikeLabSoundCardProduct" /* Add your product High Speed string */
+#define USBD_PRODUCT_FS_STRING        "MikeLabSoundCardProduct" /* Add your product Full Speed string */
+#define USBD_CONFIGURATION_HS_STRING  "MikeLabSoundCardConfHS" /* Add your configuration High Speed string */
+#define USBD_INTERFACE_HS_STRING      "MikeLabSoundCardInterfaceHS" /* Add your Interface High Speed string */
+#define USBD_CONFIGURATION_FS_STRING  "MikeLabSoundCardConfFS" /* Add your configuration Full Speed string */
+#define USBD_INTERFACE_FS_STRING      "MikeLabSoundCardInterfaceFS" /* Add your Interface Full Speed string */
 
 /* Private macro -------------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
